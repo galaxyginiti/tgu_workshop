@@ -1,0 +1,13 @@
+﻿field;role;description;unit
+customer_id, snapshot_at;ключ;Абонент и дата расчёта T (00:00 МСК первого числа);—
+active_rule;служебное;Записанное правило активной базы;—
+source_billing_month, billing_available_at;служебное;Месяц биллинга, из которого взяты показатели, и момент его доступности (≤ T);—
+region, acquisition_channel, customer_segment;признак;Постоянные поля справочника;—
+tenure_days, tenure_group;признак;"Стаж на T = T − activation_date; группы заданы заранее: <90, 90–364, ≥365 дней";дни
+tariff … tariff_changes_count;признак;Показатели биллинга предыдущего календарного месяца (customer_month);руб./ГБ/мин./дни
+support_*;признак;Агрегаты поддержки предыдущего месяца, доступные на T (из customer_month);шт./балл
+support_system;контекст;legacy/current — система учёта обращений в месяце показателей;—
+debt_group, support_group, paid_zero;группировка;"Группы для сравнения; неизвестные значения — отдельная группа";—
+churn_target;метка;"1 — termination в [T, target_end_exclusive); пусто — исход не наблюдаем";0/1
+target_end_exclusive;метка;Исключённый конец горизонта (первое число следующего месяца);дата
+label_observed;метка;1 — горизонт полностью внутри журнала (до 01.10.2026);0/1

@@ -1,0 +1,4 @@
+﻿support_group;n_observations;n_customers;n_churn;churn_rate;ci95_low;ci95_high;small_group
+0;10351;2278;278;0.02686;0.02391;0.03015;
+1;4018;1867;122;0.03036;0.02549;0.03613;
+2+;1327;962;40;0.03014;0.02221;0.04079;

@@ -1,0 +1,23 @@
+﻿field;value;n_rows;share
+tariff;Comfort;6286;0.40048
+tariff;Basic;6239;0.39749
+tariff;Premium;3171;0.20203
+region;Москва;3197;0.20368
+region;Новосибирская область;3186;0.20298
+region;Томская область;3144;0.20031
+region;Московская область;3142;0.20018
+region;Красноярский край;3027;0.19285
+acquisition_channel;online;7401;0.47152
+acquisition_channel;store;5779;0.36818
+acquisition_channel;partner;2516;0.1603
+customer_segment;individual;14471;0.92195
+customer_segment;small_business;1225;0.07805
+tenure_group;≥365 дн.;12791;0.81492
+tenure_group;90–364 дн.;1808;0.11519
+tenure_group;<90 дн.;1097;0.06989
+debt_group;долг = 0;12035;0.76676
+debt_group;долг > 0;3661;0.23324
+support_group;0;10351;0.65947
+support_group;1;4018;0.25599
+support_group;2+;1327;0.08454
+support_system;current;15696;1.0

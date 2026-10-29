@@ -1,0 +1,21 @@
+{
+  "eda_dates": [
+    "2025-12-01",
+    "2026-01-01",
+    "2026-02-01",
+    "2026-03-01",
+    "2026-04-01",
+    "2026-05-01",
+    "2026-06-01",
+    "2026-07-01"
+  ],
+  "rows": 15696,
+  "customers": 2319,
+  "churn_events": 440,
+  "churn_rate_overall": 0.02803,
+  "network_prev_month_reports_known_at_T": 16,
+  "network_prev_month_reports_unknown_at_T": 24,
+  "network_vs_churn_spearman_known_pairs": -0.235,
+  "network_known_pairs": 16,
+  "checks_failed": 0
+}
