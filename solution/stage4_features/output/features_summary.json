@@ -1,0 +1,82 @@
+{
+  "dates": [
+    "2025-12-01",
+    "2026-01-01",
+    "2026-02-01",
+    "2026-03-01",
+    "2026-04-01",
+    "2026-05-01",
+    "2026-06-01",
+    "2026-07-01",
+    "2026-08-01",
+    "2026-09-01"
+  ],
+  "rows": 19541,
+  "features_total": 34,
+  "features_in_X": 32,
+  "x_shape": {
+    "train": [
+      15696,
+      58
+    ],
+    "validation": [
+      1929,
+      58
+    ],
+    "test": [
+      1916,
+      58
+    ]
+  },
+  "split": [
+    {
+      "split": "train",
+      "dates": "2025-12-01, 2026-01-01, 2026-02-01, 2026-03-01, 2026-04-01, 2026-05-01, 2026-06-01, 2026-07-01",
+      "rows": 15696,
+      "customers": 2319
+    },
+    {
+      "split": "validation",
+      "dates": "2026-08-01",
+      "rows": 1929,
+      "customers": 1929
+    },
+    {
+      "split": "test",
+      "dates": "2026-09-01",
+      "rows": 1916,
+      "customers": 1916
+    }
+  ],
+  "baseline_train_micro": {
+    "recall_at_k": 0.3977,
+    "precision_at_k": 0.1117
+  },
+  "baseline_train_macro": {
+    "recall_at_k": 0.3963,
+    "precision_at_k": 0.1118
+  },
+  "missing_share_in_features": {
+    "debt_change_1m_rub": 0.0256,
+    "traffic_last_gb": 0.0096,
+    "traffic_avg_3m_gb": 0.0003,
+    "traffic_per_active_day_3m": 0.0003,
+    "traffic_change_1m_gb": 0.0444,
+    "voice_avg_3m_min": 0.0001,
+    "app_sessions_last": 0.6491,
+    "sessions_per_observed_day_last": 0.6491,
+    "payment_failure_rate_last": 0.7467,
+    "payment_attempts_last": 0.6491,
+    "selfservice_actions_last": 0.6491,
+    "app_sessions_avg_3m": 0.276,
+    "app_sessions_latest_observed": 0.2753,
+    "digital_latest_observed_age_months": 0.2753
+  },
+  "digital_status_last_counts": {
+    "not_published": 9801,
+    "observed": 6856,
+    "not_enabled": 2485,
+    "export_gap": 399
+  },
+  "checks_failed": 0
+}

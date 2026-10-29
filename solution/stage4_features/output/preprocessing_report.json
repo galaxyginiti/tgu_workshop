@@ -1,0 +1,132 @@
+{
+  "fit_on": "train (T = 01.12.2025–01.07.2026)",
+  "transform_only": [
+    "validation",
+    "test"
+  ],
+  "numeric_columns": [
+    "tenure_days",
+    "debt_last_rub",
+    "debt_months_3m",
+    "debt_change_1m_rub",
+    "payment_delay_last_days",
+    "paid_to_charged_last",
+    "tariff_changes_3m",
+    "traffic_last_gb",
+    "traffic_avg_3m_gb",
+    "traffic_per_active_day_3m",
+    "traffic_change_1m_gb",
+    "voice_avg_3m_min",
+    "support_count_3m",
+    "support_billing_count_3m",
+    "support_network_count_3m",
+    "support_count_last",
+    "app_sessions_last",
+    "sessions_per_observed_day_last",
+    "payment_failure_rate_last",
+    "payment_attempts_last",
+    "selfservice_actions_last",
+    "app_sessions_avg_3m",
+    "app_sessions_latest_observed",
+    "digital_latest_observed_age_months",
+    "billing_months_3m",
+    "traffic_known_months_3m",
+    "digital_observed_months_3m"
+  ],
+  "categorical_columns": [
+    "region",
+    "acquisition_channel",
+    "customer_segment",
+    "tariff_last",
+    "digital_status_last"
+  ],
+  "shapes": {
+    "train": [
+      15696,
+      58
+    ],
+    "validation": [
+      1929,
+      58
+    ],
+    "test": [
+      1916,
+      58
+    ]
+  },
+  "row_order": "строки X идут в порядке features.csv внутри части split (сортировка snapshot_at, customer_id); ключи — split.csv",
+  "train_medians": {
+    "tenure_days": 1222.0,
+    "debt_last_rub": 0.0,
+    "debt_months_3m": 1.0,
+    "debt_change_1m_rub": 0.0,
+    "payment_delay_last_days": 0.0,
+    "paid_to_charged_last": 1.0,
+    "tariff_changes_3m": 0.0,
+    "traffic_last_gb": 23.07,
+    "traffic_avg_3m_gb": 23.758333,
+    "traffic_per_active_day_3m": 0.802806,
+    "traffic_change_1m_gb": 0.1,
+    "voice_avg_3m_min": 268.333333,
+    "support_count_3m": 1.0,
+    "support_billing_count_3m": 0.0,
+    "support_network_count_3m": 0.0,
+    "support_count_last": 0.0,
+    "app_sessions_last": 7.0,
+    "sessions_per_observed_day_last": 0.258065,
+    "payment_failure_rate_last": 0.0,
+    "payment_attempts_last": 2.0,
+    "selfservice_actions_last": 2.0,
+    "app_sessions_avg_3m": 7.333333,
+    "app_sessions_latest_observed": 7.0,
+    "digital_latest_observed_age_months": 2.0,
+    "billing_months_3m": 3.0,
+    "traffic_known_months_3m": 3.0,
+    "digital_observed_months_3m": 2.0
+  },
+  "categories": {
+    "region": [
+      "Красноярский край",
+      "Москва",
+      "Московская область",
+      "Новосибирская область",
+      "Томская область"
+    ],
+    "acquisition_channel": [
+      "online",
+      "partner",
+      "store"
+    ],
+    "customer_segment": [
+      "individual",
+      "small_business"
+    ],
+    "tariff_last": [
+      "Basic",
+      "Comfort",
+      "Premium"
+    ],
+    "digital_status_last": [
+      "export_gap",
+      "not_enabled",
+      "not_published",
+      "observed"
+    ]
+  },
+  "missing_indicator_columns": [
+    "numeric__missingindicator_debt_change_1m_rub",
+    "numeric__missingindicator_traffic_last_gb",
+    "numeric__missingindicator_traffic_avg_3m_gb",
+    "numeric__missingindicator_traffic_per_active_day_3m",
+    "numeric__missingindicator_traffic_change_1m_gb",
+    "numeric__missingindicator_voice_avg_3m_min",
+    "numeric__missingindicator_app_sessions_last",
+    "numeric__missingindicator_sessions_per_observed_day_last",
+    "numeric__missingindicator_payment_failure_rate_last",
+    "numeric__missingindicator_payment_attempts_last",
+    "numeric__missingindicator_selfservice_actions_last",
+    "numeric__missingindicator_app_sessions_avg_3m",
+    "numeric__missingindicator_app_sessions_latest_observed",
+    "numeric__missingindicator_digital_latest_observed_age_months"
+  ]
+}
