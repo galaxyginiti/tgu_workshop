@@ -1,0 +1,30 @@
+{
+  "paths": {
+    "subscribers": "1_introduction/subscribers.csv",
+    "billing": "1_introduction/billing_monthly.csv",
+    "contract_events": "1_introduction/contract_events.csv",
+    "data_dictionary_lesson1": "1_introduction/data_dictionary.csv",
+    "billing_preview": "1_introduction/billing_preview.csv",
+    "support_sqlite": "2_preprocessing/data/support.sqlite",
+    "support_current_export": "2_preprocessing/data/support_current_export.csv",
+    "support_legacy": "2_preprocessing/data/support_legacy_sep_oct_2025.csv",
+    "schema_support": "2_preprocessing/schema_support.csv",
+    "network_quality": "3_eda/data/network_quality_monthly.csv",
+    "business_context": "3_eda/data/business_context.csv",
+    "digital_usage": "4_features/data/digital_usage_monthly.csv"
+  },
+  "support_read_mode": "sqlite",
+  "support_window_start": "2025-09-01",
+  "support_window_end_exclusive": "2026-09-01",
+  "horizon": "calendar_month",
+  "active_mode": "before_events",
+  "window_months": 3,
+  "train_start": "2025-12-01",
+  "train_end_inclusive": "2026-07-01",
+  "validation_dates": ["2026-08-01"],
+  "test_dates": ["2026-09-01"],
+  "observation_end_exclusive": "2026-10-01",
+  "campaign_fraction": 0.1,
+  "tenure_bins_days": [90, 365],
+  "small_group_rows": 30
+}

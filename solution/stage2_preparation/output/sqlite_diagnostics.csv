@@ -1,0 +1,13 @@
+﻿query;result
+source_rows;source_rows=9373
+distinct_ticket_ids;distinct_ticket_ids=9273
+ticket_id_copies;"ticket_ids_with_copies=100; extra_copies=100"
+empty_customer_id;empty_customer_id=8
+customer_id_with_spaces;customer_id_with_spaces=30
+created_at_without_zone;created_at_without_zone=40
+rows_by_topic;"topic=<empty>; rows_by_topic=120"
+rows_by_topic;"topic=billing; rows_by_topic=2913"
+rows_by_topic;"topic=network; rows_by_topic=3761"
+rows_by_topic;"topic=services; rows_by_topic=923"
+rows_by_topic;"topic=tariff; rows_by_topic=1656"
+satisfaction_out_of_range;satisfaction_out_of_range=25

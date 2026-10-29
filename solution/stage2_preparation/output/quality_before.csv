@@ -1,0 +1,99 @@
+﻿stage;table;check;column;unit;count;note
+before;subscribers;full_duplicate_copies;*;copies;0;
+before;subscribers;key_duplicate;customer_id;cells;0;
+before;subscribers;id_format;customer_id;cells;0;
+before;subscribers;missing;activation_date;cells;65;
+before;subscribers;date_format;activation_date;cells;0;
+before;subscribers;activation_differs_from_event;activation_date;cells;0;
+before;subscribers;missing;region;cells;0;
+before;subscribers;missing;acquisition_channel;cells;0;
+before;subscribers;missing;customer_segment;cells;0;
+before;subscribers;category;acquisition_channel;cells;0;
+before;subscribers;category;customer_segment;cells;0;
+before;contract_events;full_duplicate_copies;*;copies;0;
+before;contract_events;key_duplicate;event_id;cells;0;
+before;contract_events;date_format;event_date;cells;0;
+before;contract_events;category;event_type;cells;0;
+before;contract_events;reference;customer_id;cells;0;
+before;contract_events;one_activation_per_customer;customer_id;cells;0;
+before;contract_events;at_most_one_termination;customer_id;cells;0;
+before;contract_events;termination_not_after_activation;event_date;cells;0;
+before;billing;full_duplicate_copies;*;copies;150;
+before;billing;key_duplicate_copies;customer_id+billing_month;copies;150;лишние строки ключа, включая полные копии
+before;billing;key_conflict;customer_id+billing_month;cells;0;один ключ с разными значениями (после удаления полных копий)
+before;billing;date_format;billing_month;cells;400;ожидается YYYY-MM-01
+before;billing;datetime_format;available_at;cells;0;
+before;billing;category;tariff;cells;200;Basic/Comfort/Premium
+before;billing;missing;monthly_fee_rub;cells;0;
+before;billing;number_format;monthly_fee_rub;cells;0;десятичная точка
+before;billing;missing;charged_rub;cells;0;
+before;billing;number_format;charged_rub;cells;0;десятичная точка
+before;billing;missing;paid_rub;cells;0;
+before;billing;number_format;paid_rub;cells;120;десятичная точка
+before;billing;missing;opening_debt_rub;cells;0;
+before;billing;number_format;opening_debt_rub;cells;0;десятичная точка
+before;billing;missing;closing_debt_rub;cells;40;
+before;billing;number_format;closing_debt_rub;cells;0;десятичная точка
+before;billing;missing;traffic_gb;cells;240;
+before;billing;number_format;traffic_gb;cells;0;десятичная точка
+before;billing;missing;voice_minutes;cells;0;
+before;billing;number_format;voice_minutes;cells;0;десятичная точка
+before;billing;missing;active_days;cells;0;
+before;billing;number_format;active_days;cells;0;десятичная точка
+before;billing;missing;payment_delay_days;cells;0;
+before;billing;number_format;payment_delay_days;cells;0;десятичная точка
+before;billing;missing;tariff_changes_count;cells;0;
+before;billing;number_format;tariff_changes_count;cells;0;десятичная точка
+before;billing;range;voice_minutes;cells;80;минуты не могут быть отрицательными
+before;billing;range;traffic_gb;cells;0;
+before;billing;range;active_days;cells;0;
+before;billing;range;payment_delay_days;cells;0;
+before;billing;range;tariff_changes_count;cells;0;
+before;billing;range;opening_debt_rub;cells;0;
+before;billing;range;closing_debt_rub;cells;0;
+before;billing;range;charged_rub;cells;0;
+before;billing;range;paid_rub;cells;0;
+before;billing;fee_matches_tariff;monthly_fee_rub;cells;0;
+before;billing;debt_equation;closing_debt_rub;cells;0;opening + charged - paid = closing
+before;billing;reference;customer_id;cells;0;
+before;billing;available_at_is_next_month_start;available_at;cells;0;
+before;billing;month_inside_contract;billing_month;cells;0;
+before;billing;active_days_match_contract;active_days;cells;0;
+before;support_legacy;full_duplicate_copies;*;copies;30;
+before;support_legacy;key_duplicate_copies;ticket_id;copies;30;лишние строки ключа, включая полные копии
+before;support_legacy;key_conflict;ticket_id;cells;0;один ticket_id с разными значениями
+before;support_legacy;id_format;ticket_id;cells;0;
+before;support_legacy;missing;customer_id;cells;0;
+before;support_legacy;whitespace;customer_id;cells;0;
+before;support_legacy;reference;customer_id;cells;0;
+before;support_legacy;missing;topic;cells;0;
+before;support_legacy;category;topic;cells;0;
+before;support_legacy;category;channel;cells;0;
+before;support_legacy;range;satisfaction_score;cells;0;
+before;support_legacy;time_order;available_at;cells;0;available_at < created_at
+before;support_legacy;time_order;resolved_at;cells;0;resolved_at < created_at
+before;support_legacy;time_order;resolution_available_at;cells;0;
+before;support_legacy;closure_pair_incomplete;resolution_available_at;cells;0;
+before;support_legacy;score_without_closure;satisfaction_score;cells;0;
+before;support_legacy;created_outside_export_window;created_at;cells;0;
+before;support_current;full_duplicate_copies;*;copies;100;
+before;support_current;key_duplicate_copies;ticket_id;copies;100;лишние строки ключа, включая полные копии
+before;support_current;key_conflict;ticket_id;cells;0;один ticket_id с разными значениями
+before;support_current;id_format;ticket_id;cells;20;
+before;support_current;missing;customer_id;cells;8;
+before;support_current;whitespace;customer_id;cells;30;
+before;support_current;reference;customer_id;cells;12;
+before;support_current;missing;topic;cells;120;
+before;support_current;category;topic;cells;0;
+before;support_current;category;channel;cells;0;
+before;support_current;range;satisfaction_score;cells;25;
+before;support_current;timezone_missing;created_at;cells;40;по заказчику: Москва
+before;support_current;timezone_missing;available_at;cells;0;по заказчику: Москва
+before;support_current;timezone_missing;resolved_at;cells;0;по заказчику: Москва
+before;support_current;timezone_missing;resolution_available_at;cells;0;по заказчику: Москва
+before;support_current;time_order;available_at;cells;20;available_at < created_at
+before;support_current;time_order;resolved_at;cells;35;resolved_at < created_at
+before;support_current;time_order;resolution_available_at;cells;0;
+before;support_current;closure_pair_incomplete;resolution_available_at;cells;0;
+before;support_current;score_without_closure;satisfaction_score;cells;0;
+before;support_current;created_outside_export_window;created_at;cells;0;

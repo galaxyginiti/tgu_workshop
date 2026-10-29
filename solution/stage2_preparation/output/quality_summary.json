@@ -1,0 +1,109 @@
+{
+  "read_mode_support_current": "SQLite (sql/extract_support.sql, mode=ro)",
+  "rows_raw": {
+    "subscribers": 2600,
+    "billing": 24248,
+    "contract_events": 3299,
+    "support_legacy": 1615,
+    "support_current": 9373,
+    "support_current_export (только сверка)": 9373
+  },
+  "rows_clean": {
+    "subscribers_clean": 2600,
+    "contract_events_clean": 3299,
+    "billing_clean": 24098,
+    "support_clean": 10818,
+    "customer_month": 24098,
+    "quarantine": 180
+  },
+  "quarantine_by_reason": [
+    {
+      "scope": "cell",
+      "reason_code": "negative_value",
+      "n": 80
+    },
+    {
+      "scope": "cell",
+      "reason_code": "score_out_of_range",
+      "n": 25
+    },
+    {
+      "scope": "resolution",
+      "reason_code": "resolution_time_order",
+      "n": 35
+    },
+    {
+      "scope": "row",
+      "reason_code": "available_before_created",
+      "n": 20
+    },
+    {
+      "scope": "row",
+      "reason_code": "customer_missing",
+      "n": 8
+    },
+    {
+      "scope": "row",
+      "reason_code": "customer_unknown",
+      "n": 12
+    }
+  ],
+  "quality_before": {
+    "subscribers": {
+      "rows_with_problems": 65,
+      "problem_cells": 65,
+      "removed_copies": 0
+    },
+    "contract_events": {
+      "rows_with_problems": 0,
+      "problem_cells": 0,
+      "removed_copies": 0
+    },
+    "billing": {
+      "rows_with_problems": 1080,
+      "problem_cells": 1080,
+      "removed_copies": 150
+    },
+    "support_legacy": {
+      "rows_with_problems": 0,
+      "problem_cells": 0,
+      "removed_copies": 30
+    },
+    "support_current": {
+      "rows_with_problems": 290,
+      "problem_cells": 310,
+      "removed_copies": 100
+    }
+  },
+  "quality_after": {
+    "subscribers": {
+      "rows_with_problems": 0,
+      "problem_cells": 0,
+      "removed_copies": 0
+    },
+    "contract_events": {
+      "rows_with_problems": 0,
+      "problem_cells": 0,
+      "removed_copies": 0
+    },
+    "billing": {
+      "rows_with_problems": 320,
+      "problem_cells": 320,
+      "removed_copies": 0
+    },
+    "support_legacy": {
+      "rows_with_problems": 0,
+      "problem_cells": 0,
+      "removed_copies": 0
+    },
+    "support_current": {
+      "rows_with_problems": 0,
+      "problem_cells": 0,
+      "removed_copies": 0
+    }
+  },
+  "support_tickets_not_in_month_snapshot_late": 250,
+  "customer_month_rows_with_support": 8052,
+  "customer_month_share_without_support": 0.6659,
+  "checks_failed": 0
+}

@@ -1,0 +1,181 @@
+﻿source_table;record_id;scope;field;raw_value;reason_code;reason;customer_id;month
+billing;C000069|2026-03-01;cell;voice_minutes;-511;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000069;2026-03-01
+billing;C000089|2026-06-01;cell;voice_minutes;-35;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000089;2026-06-01
+billing;C000257|2025-09-01;cell;voice_minutes;-834;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000257;2025-09-01
+billing;C000287|2025-11-01;cell;voice_minutes;-279;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000287;2025-11-01
+billing;C000293|2025-09-01;cell;voice_minutes;-79;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000293;2025-09-01
+billing;C000311|2025-10-01;cell;voice_minutes;-31;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000311;2025-10-01
+billing;C000378|2025-11-01;cell;voice_minutes;-222;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000378;2025-11-01
+billing;C000407|2025-10-01;cell;voice_minutes;-120;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000407;2025-10-01
+billing;C000446|2026-03-01;cell;voice_minutes;-220;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000446;2026-03-01
+billing;C000450|2025-10-01;cell;voice_minutes;-280;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000450;2025-10-01
+billing;C000457|2026-08-01;cell;voice_minutes;-93;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000457;2026-08-01
+billing;C000505|2026-04-01;cell;voice_minutes;-459;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000505;2026-04-01
+billing;C000548|2026-03-01;cell;voice_minutes;-182;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000548;2026-03-01
+billing;C000549|2026-03-01;cell;voice_minutes;-151;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000549;2026-03-01
+billing;C000563|2025-09-01;cell;voice_minutes;-147;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000563;2025-09-01
+billing;C000577|2026-05-01;cell;voice_minutes;-465;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000577;2026-05-01
+billing;C000583|2026-04-01;cell;voice_minutes;-449;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000583;2026-04-01
+billing;C000636|2026-04-01;cell;voice_minutes;-534;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000636;2026-04-01
+billing;C000639|2026-03-01;cell;voice_minutes;-47;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000639;2026-03-01
+billing;C000685|2025-09-01;cell;voice_minutes;-135;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000685;2025-09-01
+billing;C000698|2026-08-01;cell;voice_minutes;-726;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000698;2026-08-01
+billing;C000705|2026-01-01;cell;voice_minutes;-229;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000705;2026-01-01
+billing;C000745|2026-05-01;cell;voice_minutes;-85;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000745;2026-05-01
+billing;C000784|2025-12-01;cell;voice_minutes;-330;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000784;2025-12-01
+billing;C000789|2026-05-01;cell;voice_minutes;-270;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000789;2026-05-01
+billing;C000840|2025-12-01;cell;voice_minutes;-345;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000840;2025-12-01
+billing;C000861|2025-11-01;cell;voice_minutes;-128;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000861;2025-11-01
+billing;C000883|2026-03-01;cell;voice_minutes;-738;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000883;2026-03-01
+billing;C000937|2025-10-01;cell;voice_minutes;-486;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000937;2025-10-01
+billing;C000962|2026-06-01;cell;voice_minutes;-374;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000962;2026-06-01
+billing;C000984|2026-06-01;cell;voice_minutes;-181;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000984;2026-06-01
+billing;C000985|2026-02-01;cell;voice_minutes;-177;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C000985;2026-02-01
+billing;C001003|2026-01-01;cell;voice_minutes;-503;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001003;2026-01-01
+billing;C001022|2026-01-01;cell;voice_minutes;-197;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001022;2026-01-01
+billing;C001059|2025-12-01;cell;voice_minutes;-757;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001059;2025-12-01
+billing;C001061|2025-09-01;cell;voice_minutes;-128;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001061;2025-09-01
+billing;C001083|2026-06-01;cell;voice_minutes;-107;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001083;2026-06-01
+billing;C001100|2026-04-01;cell;voice_minutes;-146;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001100;2026-04-01
+billing;C001101|2026-07-01;cell;voice_minutes;-200;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001101;2026-07-01
+billing;C001109|2025-09-01;cell;voice_minutes;-225;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001109;2025-09-01
+billing;C001109|2026-03-01;cell;voice_minutes;-185;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001109;2026-03-01
+billing;C001151|2026-06-01;cell;voice_minutes;-371;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001151;2026-06-01
+billing;C001202|2025-10-01;cell;voice_minutes;-381;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001202;2025-10-01
+billing;C001300|2026-05-01;cell;voice_minutes;-118;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001300;2026-05-01
+billing;C001303|2026-05-01;cell;voice_minutes;-326;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001303;2026-05-01
+billing;C001321|2026-03-01;cell;voice_minutes;-204;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001321;2026-03-01
+billing;C001322|2025-09-01;cell;voice_minutes;-360;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001322;2025-09-01
+billing;C001331|2026-03-01;cell;voice_minutes;-168;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001331;2026-03-01
+billing;C001339|2025-09-01;cell;voice_minutes;-65;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001339;2025-09-01
+billing;C001367|2025-10-01;cell;voice_minutes;-136;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001367;2025-10-01
+billing;C001371|2026-02-01;cell;voice_minutes;-53;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001371;2026-02-01
+billing;C001426|2025-10-01;cell;voice_minutes;-559;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001426;2025-10-01
+billing;C001466|2025-11-01;cell;voice_minutes;-232;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001466;2025-11-01
+billing;C001494|2026-02-01;cell;voice_minutes;-309;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001494;2026-02-01
+billing;C001516|2026-01-01;cell;voice_minutes;-348;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001516;2026-01-01
+billing;C001532|2025-10-01;cell;voice_minutes;-511;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001532;2025-10-01
+billing;C001555|2026-02-01;cell;voice_minutes;-125;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001555;2026-02-01
+billing;C001583|2026-06-01;cell;voice_minutes;-21;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001583;2026-06-01
+billing;C001632|2026-07-01;cell;voice_minutes;-117;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001632;2026-07-01
+billing;C001639|2025-12-01;cell;voice_minutes;-184;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001639;2025-12-01
+billing;C001647|2025-12-01;cell;voice_minutes;-109;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001647;2025-12-01
+billing;C001652|2025-09-01;cell;voice_minutes;-325;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001652;2025-09-01
+billing;C001682|2026-06-01;cell;voice_minutes;-489;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001682;2026-06-01
+billing;C001688|2026-01-01;cell;voice_minutes;-87;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001688;2026-01-01
+billing;C001689|2026-07-01;cell;voice_minutes;-95;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001689;2026-07-01
+billing;C001717|2026-06-01;cell;voice_minutes;-159;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001717;2026-06-01
+billing;C001747|2026-06-01;cell;voice_minutes;-33;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001747;2026-06-01
+billing;C001800|2026-08-01;cell;voice_minutes;-400;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001800;2026-08-01
+billing;C001825|2026-03-01;cell;voice_minutes;-47;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001825;2026-03-01
+billing;C001858|2026-03-01;cell;voice_minutes;-66;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001858;2026-03-01
+billing;C001978|2026-08-01;cell;voice_minutes;-149;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C001978;2026-08-01
+billing;C002017|2026-05-01;cell;voice_minutes;-398;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002017;2026-05-01
+billing;C002032|2025-11-01;cell;voice_minutes;-309;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002032;2025-11-01
+billing;C002057|2025-11-01;cell;voice_minutes;-303;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002057;2025-11-01
+billing;C002073|2026-08-01;cell;voice_minutes;-246;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002073;2026-08-01
+billing;C002097|2026-05-01;cell;voice_minutes;-280;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002097;2026-05-01
+billing;C002177|2026-08-01;cell;voice_minutes;-294;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002177;2026-08-01
+billing;C002203|2026-05-01;cell;voice_minutes;-35;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002203;2026-05-01
+billing;C002404|2026-07-01;cell;voice_minutes;-587;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002404;2026-07-01
+billing;C002429|2026-07-01;cell;voice_minutes;-533;negative_value;"Отрицательные минуты связи; значение исключено из расчётов (пусто)";C002429;2026-07-01
+support_current;T0001772;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000395;2025-11-01
+support_current;T0002167;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001224;2025-11-01
+support_current;T0002170;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001226;2025-11-01
+support_current;T0002240;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001379;2025-11-01
+support_current;T0002353;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001638;2025-11-01
+support_current;T0002408;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001776;2025-11-01
+support_current;T0002497;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001944;2025-11-01
+support_current;T0002612;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000136;2025-12-01
+support_current;T0003689;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000407;2026-01-01
+support_current;T0003971;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001019;2026-01-01
+support_current;T0004398;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C002098;2026-01-01
+support_current;T0004646;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000531;2026-02-01
+support_current;T0004651;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000545;2026-02-01
+support_current;T0004810;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000933;2026-02-01
+support_current;T0006060;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001850;2026-03-01
+support_current;T0006191;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C002149;2026-03-01
+support_current;T0006302;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000111;2026-04-01
+support_current;T0007879;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001827;2026-05-01
+support_current;T0008295;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000466;2026-06-01
+support_current;T0008405;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000818;2026-06-01
+support_current;T0008618;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001338;2026-06-01
+support_current;T0010292;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000989;2026-08-01
+support_current;T0010298;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C000994;2026-08-01
+support_current;T0010490;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001608;2026-08-01
+support_current;T0010622;cell;satisfaction_score;9;score_out_of_range;"Оценка вне шкалы 1–5; значение исключено";C001992;2026-08-01
+support_current;T0001614;resolution;resolved_at,resolution_available_at,satisfaction_score;2025-11-07 01:55:00 | 2025-11-11 02:15:00 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000074;2025-11-01
+support_current;T0001664;resolution;resolved_at,resolution_available_at,satisfaction_score;2025-11-28 15:15:00 | 2025-12-10 04:39:00 | 1;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000163;2025-11-01
+support_current;T0003263;resolution;resolved_at,resolution_available_at,satisfaction_score;2025-12-29 12:08:56 | 2026-01-03 20:38:56 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001619;2025-12-01
+support_current;T0003634;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-01-31 01:50:40 | 2026-02-04 20:14:40 | ;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000276;2026-01-01
+support_current;T0004764;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-02-02 11:54:55 | 2026-02-07 19:40:55 | 2;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000848;2026-02-01
+support_current;T0004968;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-02-15 16:55:29 | 2026-02-25 07:35:29 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001272;2026-02-01
+support_current;T0005071;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-02-28 19:55:14 | 2026-03-13 18:46:14 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001521;2026-02-01
+support_current;T0005293;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-02-13 08:22:03 | 2026-02-22 03:52:03 | ;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C002089;2026-02-01
+support_current;T0005372;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-10 20:31:56 | 2026-03-19 02:49:56 | 5;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000042;2026-03-01
+support_current;T0005521;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-19 21:16:19 | 2026-03-25 17:08:19 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000383;2026-03-01
+support_current;T0005522;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-09 18:45:45 | 2026-03-24 05:27:45 | 2;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000384;2026-03-01
+support_current;T0005806;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-17 13:32:41 | 2026-03-28 13:03:41 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001147;2026-03-01
+support_current;T0005821;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-11 16:48:28 | 2026-03-16 16:56:28 | ;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001188;2026-03-01
+support_current;T0006032;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-31 20:18:57 | 2026-04-09 17:20:57 | ;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001751;2026-03-01
+support_current;T0006126;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-03-12 20:49:24 | 2026-03-18 22:52:24 | 5;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C002021;2026-03-01
+support_current;T0006496;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-24 14:32:29 | 2026-04-27 18:52:29 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000633;2026-04-01
+support_current;T0006558;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-26 18:56:39 | 2026-05-03 02:43:39 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000805;2026-04-01
+support_current;T0006658;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-04 18:59:40 | 2026-04-13 15:51:40 | 1;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001047;2026-04-01
+support_current;T0006667;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-01 17:45:21 | 2026-04-07 04:17:21 | 2;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001063;2026-04-01
+support_current;T0006810;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-09 11:05:38 | 2026-04-15 01:41:38 | 5;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001437;2026-04-01
+support_current;T0006900;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-06 09:59:36 | 2026-04-14 11:39:36 | ;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001684;2026-04-01
+support_current;T0007163;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-04-26 05:01:48 | 2026-05-05 00:40:48 | 2;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C002321;2026-04-01
+support_current;T0007272;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-05-23 09:31:20 | 2026-05-26 15:36:20 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000260;2026-05-01
+support_current;T0007517;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-05-15 21:54:44 | 2026-05-28 23:26:44 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000953;2026-05-01
+support_current;T0007580;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-05-04 11:20:12 | 2026-05-16 20:20:12 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001076;2026-05-01
+support_current;T0008326;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-06-16 18:35:40 | 2026-06-27 18:38:40 | 3;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000598;2026-06-01
+support_current;T0008527;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-06-04 08:55:53 | 2026-06-12 17:40:53 | 5;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001112;2026-06-01
+support_current;T0008626;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-06-27 01:56:01 | 2026-07-06 14:44:01 | 2;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001366;2026-06-01
+support_current;T0008825;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-06-13 01:59:37 | 2026-06-19 00:37:37 | 5;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001935;2026-06-01
+support_current;T0008892;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-06-13 07:48:00 | 2026-06-17 23:52:00 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C002151;2026-06-01
+support_current;T0009133;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-07-01 13:24:15 | 2026-07-03 21:19:15 | 2;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000353;2026-07-01
+support_current;T0009226;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-07-31 09:22:28 | 2026-08-04 09:51:28 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000581;2026-07-01
+support_current;T0009399;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-07-01 16:55:49 | 2026-07-13 16:54:49 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001144;2026-07-01
+support_current;T0009462;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-07-11 10:26:28 | 2026-07-26 05:00:28 | 4;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C001331;2026-07-01
+support_current;T0009967;resolution;resolved_at,resolution_available_at,satisfaction_score;2026-08-27 20:27:51 | 2026-09-01 10:08:51 | ;resolution_time_order;Закрытие раньше создания: факт закрытия и оценка исключены, обращение сохранено;C000042;2026-08-01
+support_current;T0002159;row;*;T0002159 | C001211 | 2025-11-02T09:16:27Z | 2025-11-02T04:16:27Z | network | phone | 2025-11-16T01:45:27Z | 2025-11-16T12:44:27Z | 3;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C001211;2025-11-01
+support_current;T0002171;row;*;T0002171 | C001227 | 2025-11-09T02:25:46Z | 2025-11-08T21:25:46Z | billing | chat | 2025-11-14T22:59:46Z | 2025-11-15T02:52:46Z | 5;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C001227;2025-11-01
+support_current;T0002303;row;*;T0002303 | C001527 | 2025-11-05T07:45:51Z | 2025-11-05T02:45:51Z | tariff | chat | 2025-11-05T12:18:51Z | 2025-11-05T17:50:51Z | 5;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C001527;2025-11-01
+support_current;T0002903;row;*;T0002903 | C000785 | 2025-12-09T01:13:26Z | 2025-12-08T20:13:26Z | network | chat | 2025-12-19T07:28:26Z | 2025-12-19T13:56:26Z | 4;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000785;2025-12-01
+support_current;T0002912;row;*;T0002912 | C000808 | 2025-12-22T04:13:18Z | 2025-12-21T23:13:18Z | billing | office | 2025-12-29T13:29:18Z | 2025-12-30T08:16:18Z | 4;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000808;2025-12-01
+support_current;T0003519;row;*;T0003519 | C000049 | 2026-01-24T09:40:45Z | 2026-01-24T04:40:45Z | tariff | chat | 2026-01-29T17:51:45Z | 2026-01-30T13:46:45Z | 3;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000049;2026-01-01
+support_current;T0003841;row;*;T0003841 | C000750 | 2026-01-26T10:44:51Z | 2026-01-26T05:44:51Z | services | chat | 2026-02-03T16:20:51Z | 2026-02-04T07:29:51Z | 1;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000750;2026-01-01
+support_current;T0005519;row;*;T0005519 | C000376 | 2026-03-17T21:57:15Z | 2026-03-17T16:57:15Z | tariff | chat | 2026-03-28T00:37:15Z | 2026-03-28T13:11:15Z | 3;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000376;2026-03-01
+support_current;T0005554;row;*;T0005554 | C000493 | 2026-03-13T14:57:18Z | 2026-03-13T09:57:18Z | network | chat | 2026-03-25T13:11:18Z | 2026-03-26T11:32:18Z | ;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000493;2026-03-01
+support_current;T0005939;row;*;T0005939 | C001500 | 2026-03-25T00:28:05Z | 2026-03-24T19:28:05Z | network | phone | 2026-03-31T09:38:05Z | 2026-03-31T20:04:05Z | 4;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C001500;2026-03-01
+support_current;T0006022;row;*;T0006022 | C001716 | 2026-03-09T09:22:26Z | 2026-03-09T04:22:26Z | billing | chat | 2026-03-21T19:08:26Z | 2026-03-21T21:24:26Z | 5;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C001716;2026-03-01
+support_current;T0006232;row;*;T0006232 | C002227 | 2026-03-24T03:35:25Z | 2026-03-23T22:35:25Z | network | chat | 2026-04-02T09:06:25Z | 2026-04-03T01:07:25Z | 3;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C002227;2026-03-01
+support_current;T0006449;row;*;T0006449 | C000530 | 2026-04-23T08:37:50Z | 2026-04-23T03:37:50Z | network | phone | 2026-05-02T21:10:50Z | 2026-05-03T03:46:50Z | 3;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000530;2026-04-01
+support_current;T0006492;row;*;T0006492 | C000622 | 2026-04-02T19:48:37Z | 2026-04-02T14:48:37Z | billing | chat | 2026-04-05T20:11:37Z | 2026-04-06T11:39:37Z | 4;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000622;2026-04-01
+support_current;T0007035;row;*;T0007035 | C002017 | 2026-04-03T03:27:09Z | 2026-04-02T22:27:09Z | billing | chat | 2026-04-11T15:39:09Z | 2026-04-11T22:12:09Z | 4;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C002017;2026-04-01
+support_current;T0007160;row;*;T0007160 | C002305 | 2026-04-13T14:34:05Z | 2026-04-13T09:34:05Z | billing | chat | 2026-04-19T20:18:05Z | 2026-04-19T21:00:05Z | 3;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C002305;2026-04-01
+support_current;T0007342;row;*;T0007342 | C000473 | 2026-05-06T07:54:43Z | 2026-05-06T02:54:43Z | billing | chat | 2026-05-08T03:28:43Z | 2026-05-08T19:36:43Z | 1;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000473;2026-05-01
+support_current;T0008041;row;*;T0008041 | C002203 | 2026-05-22T06:42:53Z | 2026-05-22T01:42:53Z | services | phone | 2026-05-29T11:46:53Z | 2026-05-29T22:27:53Z | 5;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C002203;2026-05-01
+support_current;T0008451;row;*;T0008451 | C000944 | 2026-06-02T17:32:55Z | 2026-06-02T12:32:55Z | network | chat | 2026-06-08T13:56:55Z | 2026-06-09T12:00:55Z | 2;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C000944;2026-06-01
+support_current;T0009880;row;*;T0009880 | C002325 | 2026-07-19T13:16:56Z | 2026-07-19T08:16:56Z | tariff | office | 2026-07-20T17:08:56Z | 2026-07-21T14:18:56Z | 2;available_before_created;available_at раньше created_at: безопасный момент доступности не установлен;C002325;2026-07-01
+support_current;X0000001;row;*;X0000001 | C999000 | 2026-07-10T04:07:32Z | 2026-07-11T00:16:32Z | billing | chat | 2026-07-21T02:04:32Z | 2026-07-21T16:00:32Z | 2;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000002;row;*;X0000002 | C999001 | 2025-12-01T09:37:59Z | 2025-12-02T10:58:59Z | tariff | phone | 2025-12-03T04:30:59Z | 2025-12-03T19:31:59Z | ;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000003;row;*;X0000003 | C999002 | 2026-02-18T16:02:46Z | 2026-02-19T04:35:46Z | network | phone | 2026-02-24T12:25:46Z | 2026-02-24T17:01:46Z | 4;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000004;row;*;X0000004 | C999003 | 2026-07-26T20:54:27Z | 2026-07-27T22:30:27Z | billing | chat | 2026-08-01T16:44:27Z | 2026-08-02T12:28:27Z | 4;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000005;row;*;X0000005 | C999004 | 2026-06-10T11:32:49Z | 2026-06-10T13:22:49Z | billing | chat | 2026-06-16T11:47:49Z | 2026-06-17T09:29:49Z | 3;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000006;row;*;X0000006 | C999005 | 2026-01-13T09:42:19Z | 2026-01-14T02:04:19Z | tariff | chat | 2026-01-17T18:47:19Z | 2026-01-18T06:42:19Z | 5;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000007;row;*;X0000007 | C999006 | 2026-06-30T16:56:54Z | 2026-07-01T03:43:54Z | network | chat | 2026-07-06T23:59:54Z | 2026-07-07T23:42:54Z | 3;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000008;row;*;X0000008 | C999007 | 2026-07-31T10:10:15Z | 2026-08-01T03:15:15Z | tariff | phone | 2026-08-09T03:43:15Z | 2026-08-09T11:01:15Z | 3;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000009;row;*;X0000009 | C999008 | 2026-08-22T13:46:18Z | 2026-08-23T11:02:18Z | billing | chat |  |  | ;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000010;row;*;X0000010 | C999009 | 2026-08-18T07:25:34Z | 2026-08-18T08:53:34Z | billing | chat | 2026-08-23T18:58:34Z | 2026-08-24T00:51:34Z | 3;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000011;row;*;X0000011 | C999010 | 2026-04-01T07:46:12Z | 2026-04-02T16:39:12Z | billing | chat | 2026-04-01T08:28:12Z | 2026-04-02T16:39:12Z | 4;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000012;row;*;X0000012 | C999011 | 2026-05-16T12:22:12Z | 2026-05-17T16:41:12Z | network | chat | 2026-05-19T03:21:12Z | 2026-05-19T23:27:12Z | 2;customer_unknown;customer_id отсутствует в реестре абонентов;;
+support_current;X0000013;row;*;X0000013 |  | 2026-05-07T08:05:17Z | 2026-05-08T06:53:17Z | billing | chat | 2026-05-13T06:28:17Z | 2026-05-13T14:32:17Z | 3;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000014;row;*;X0000014 |  | 2025-11-11T16:49:06Z | 2025-11-12T05:02:06Z | tariff | phone | 2025-11-20T09:05:06Z | 2025-11-20T13:32:06Z | 4;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000015;row;*;X0000015 |  | 2026-08-21T19:23:11Z | 2026-08-23T03:43:11Z | billing | chat | 2026-08-31T21:35:11Z | 2026-09-01T09:25:11Z | 2;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000016;row;*;X0000016 |  | 2026-07-28T16:25:59Z | 2026-07-29T05:44:59Z | network | phone | 2026-07-29T23:37:59Z | 2026-07-30T04:55:59Z | 4;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000017;row;*;X0000017 |  | 2026-03-11T02:13:37Z | 2026-03-12T12:18:37Z | network | chat | 2026-03-20T03:23:37Z | 2026-03-20T12:15:37Z | 3;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000018;row;*;X0000018 |  | 2026-05-14T07:02:32Z | 2026-05-15T10:31:32Z | tariff | office | 2026-05-15T04:33:32Z | 2026-05-15T17:56:32Z | ;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000019;row;*;X0000019 |  | 2026-05-21T18:31:18Z | 2026-05-21T19:36:18Z | billing | chat | 2026-05-31T21:13:18Z | 2026-06-01T09:33:18Z | 3;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;
+support_current;X0000020;row;*;X0000020 |  | 2025-12-15T10:53:15Z | 2025-12-16T02:16:15Z | billing | chat | 2025-12-20T13:00:15Z | 2025-12-20T13:52:15Z | 3;customer_missing;Пустой customer_id: обращение нельзя связать с абонентом;;

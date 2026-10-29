@@ -1,0 +1,42 @@
+﻿table;field;data_type;description;unit;available_when
+subscribers_clean;customer_id;String;Идентификатор абонента;—;постоянное поле
+subscribers_clean;activation_date;Date;Дата подключения (восстановлена по activation при пропуске);дата;известна с даты подключения
+subscribers_clean;activation_date_source;String;subscribers | contract_events | unknown — откуда взята дата;—;служебное
+subscribers_clean;region;String;Регион обслуживания;—;постоянное поле
+subscribers_clean;acquisition_channel;String;Канал подключения: online, store, partner;—;постоянное поле
+subscribers_clean;customer_segment;String;individual | small_business;—;постоянное поле
+contract_events_clean;event_id;String;Идентификатор события;—;
+contract_events_clean;customer_id;String;Абонент;—;
+contract_events_clean;event_date;Date;Дата события, действует с 00:00 МСК;дата;"с 00:00 event_date; termination после T — только для метки"
+contract_events_clean;event_type;String;activation | termination;—;
+billing_clean;customer_id, billing_month;String, Date;Составной ключ: абонент и первый день месяца услуг;—;
+billing_clean;available_at;DateTime;Момент доступности строки биллинга;ISO +03:00;00:00 первого дня следующего месяца
+billing_clean;tariff;String;Basic | Comfort | Premium (нормализовано);—;available_at
+billing_clean;monthly_fee_rub … closing_debt_rub;Decimal;Цена тарифа, начислено, оплачено, долг на начало и конец;руб.;available_at
+billing_clean;traffic_gb;Decimal nullable;"Трафик; пусто = неизвестно (не ноль)";ГБ;available_at
+billing_clean;voice_minutes;Integer nullable;"Минуты; пусто = неизвестно или отрицательное исходное значение";мин.;available_at
+billing_clean;active_days, payment_delay_days, tariff_changes_count;Integer;Как в словаре занятия 1;дни / шт.;available_at
+billing_clean;closing_debt_restored;0/1;Конечный долг восстановлен по равенству;флаг;диагностика качества
+billing_clean;voice_minutes_invalid;0/1;Исходные минуты отрицательны и исключены;флаг;диагностика качества
+support_clean;ticket_id;String;Ключ обращения (уникален после удаления копий);—;
+support_clean;customer_id;String;Абонент (без пробелов, есть в реестре);—;
+support_clean;source_system;String;legacy (сен–окт 2025) | current (с ноября 2025);—;
+support_clean;created_at;DateTime;Создание обращения;ISO +03:00;только вместе с available_at
+support_clean;available_at;DateTime;Доступность записи о создании;ISO +03:00;определяет включение в снимок
+support_clean;created_month;Date;Месяц создания по Москве;месяц;
+support_clean;topic;String;network | billing | tariff | services | unknown;—;available_at
+support_clean;channel;String;phone | chat | office;—;available_at
+support_clean;resolved_at;DateTime nullable;Закрытие (пусто: не подтверждено или исключено);ISO +03:00;только при resolution_available_at ≤ T
+support_clean;resolution_available_at;DateTime nullable;Доступность закрытия и оценки;ISO +03:00;
+support_clean;satisfaction_score;Integer nullable;Оценка 1–5;балл;только при resolution_available_at ≤ T
+support_clean;created_at_zone_assumed, resolution_removed, score_removed;0/1;Флаги обработки;флаг;диагностика качества
+customer_month;customer_id, billing_month;String, Date;Ключ: одна строка на строку billing_clean;—;
+customer_month;available_at;DateTime;Доступность строки = available_at биллинга;ISO +03:00;первый день следующего месяца 00:00
+customer_month;region, acquisition_channel, customer_segment, activation_date;String/Date;Постоянные поля абонента;—;постоянные
+customer_month;support_count;Integer;Обращения, созданные в billing_month и доступные не позже available_at строки;шт.;available_at строки
+customer_month;support_network_count / billing / tariff / services / unknown_topic;Integer;То же по темам;шт.;available_at строки
+customer_month;support_resolved_count;Integer;Из них закрытия с resolution_available_at ≤ available_at строки;шт.;available_at строки
+customer_month;support_score_count;Integer;Число доступных оценок;шт.;available_at строки
+customer_month;support_score_mean;Decimal nullable;"Средняя доступная оценка; пусто, если оценок 0";балл;available_at строки
+customer_month;support_quarantine_count;Integer;Обращения абонента за месяц в карантине (диагностика, НЕ признак);шт.;доступность не подтверждена
+customer_month;support_system;String;Система учёта поддержки в этом месяце (legacy/current);—;контекст сопоставимости
