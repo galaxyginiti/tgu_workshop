@@ -1,0 +1,120 @@
+{
+  "selected_experiment": "exp05_hgb_leaf7",
+  "family": "hist_gradient_boosting",
+  "params": {
+    "max_leaf_nodes": 7,
+    "max_iter": 100,
+    "learning_rate": 0.07
+  },
+  "seed": 42,
+  "x_version": "x_v1",
+  "numeric_columns": [
+    "tenure_days",
+    "debt_last_rub",
+    "debt_months_3m",
+    "debt_change_1m_rub",
+    "payment_delay_last_days",
+    "paid_to_charged_last",
+    "tariff_changes_3m",
+    "traffic_last_gb",
+    "traffic_avg_3m_gb",
+    "traffic_per_active_day_3m",
+    "traffic_change_1m_gb",
+    "voice_avg_3m_min",
+    "support_count_3m",
+    "support_billing_count_3m",
+    "support_network_count_3m",
+    "support_count_last",
+    "app_sessions_last",
+    "sessions_per_observed_day_last",
+    "payment_failure_rate_last",
+    "payment_attempts_last",
+    "selfservice_actions_last",
+    "app_sessions_avg_3m",
+    "app_sessions_latest_observed",
+    "digital_latest_observed_age_months",
+    "billing_months_3m",
+    "traffic_known_months_3m",
+    "digital_observed_months_3m"
+  ],
+  "categorical_columns": [
+    "region",
+    "acquisition_channel",
+    "customer_segment",
+    "tariff_last",
+    "digital_status_last"
+  ],
+  "fit_on": "train: T = 01.12.2025–01.07.2026",
+  "fit_rows": 15696,
+  "not_refit_on_validation": true,
+  "test_used": false,
+  "selection_rule": [
+    "максимальный Recall@K на validation (01.08.2026)",
+    "при равенстве — максимальный Average Precision на validation",
+    "при полном равенстве — первый опыт в порядке этого списка (более простой идёт раньше)"
+  ],
+  "versions": {
+    "python": "3.14.6",
+    "numpy": "2.5.1",
+    "pandas": "3.1.0",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0"
+  },
+  "data_sha256": {
+    "features.csv": "4acbb7332c8ca4a516f6be94e0d2b8f3f34ed8a5ac4a8b2604ea3046d1a21f89",
+    "labels.csv": "a76b7f18e825052e979e2c002f118f309483dc0887097f298b39d767fdec3c18",
+    "split.csv": "39397d173ed92fcafd5ead40800c6e36680d3369fc10f10496fd1c6967972989"
+  },
+  "metrics": {
+    "train": {
+      "macro_recall_at_K": 0.6185831867067962,
+      "macro_precision_at_K": 0.17443099656001393,
+      "macro_average_precision": 0.3949398604809826,
+      "pooled_recall_at_K": 0.6204545454545455,
+      "pooled_precision_at_K": 0.1743295019157088,
+      "n_active": 15696,
+      "K": 1566,
+      "n_churn": 440,
+      "hits": 273,
+      "n_dates": 8
+    },
+    "validation": {
+      "macro_recall_at_K": 0.30158730158730157,
+      "macro_precision_at_K": 0.09895833333333333,
+      "macro_average_precision": 0.07828924124513574,
+      "pooled_recall_at_K": 0.30158730158730157,
+      "pooled_precision_at_K": 0.09895833333333333,
+      "n_active": 1929,
+      "K": 192,
+      "n_churn": 63,
+      "hits": 19,
+      "n_dates": 1
+    }
+  },
+  "baseline_metrics": {
+    "train": {
+      "macro_recall_at_K": 0.3962670227693865,
+      "macro_precision_at_K": 0.1118022757173251,
+      "macro_average_precision": 0.08824093908395078,
+      "pooled_recall_at_K": 0.3977272727272727,
+      "pooled_precision_at_K": 0.11174968071519796,
+      "n_active": 15696,
+      "K": 1566,
+      "n_churn": 440,
+      "hits": 175,
+      "n_dates": 8
+    },
+    "validation": {
+      "macro_recall_at_K": 0.2222222222222222,
+      "macro_precision_at_K": 0.07291666666666667,
+      "macro_average_precision": 0.05826225020359142,
+      "pooled_recall_at_K": 0.2222222222222222,
+      "pooled_precision_at_K": 0.07291666666666667,
+      "n_active": 1929,
+      "K": 192,
+      "n_churn": 63,
+      "hits": 14,
+      "n_dates": 1
+    }
+  }
+}

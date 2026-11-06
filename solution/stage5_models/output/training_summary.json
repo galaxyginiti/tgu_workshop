@@ -1,0 +1,55 @@
+{
+  "selected_experiment": "exp05_hgb_leaf7",
+  "selected_family": "hist_gradient_boosting",
+  "train_rows": 15696,
+  "validation_rows": 1929,
+  "baseline_validation": {
+    "macro_recall_at_K": 0.2222222222222222,
+    "macro_precision_at_K": 0.07291666666666667,
+    "macro_average_precision": 0.05826225020359142,
+    "pooled_recall_at_K": 0.2222222222222222,
+    "pooled_precision_at_K": 0.07291666666666667,
+    "n_active": 1929,
+    "K": 192,
+    "n_churn": 63,
+    "hits": 14,
+    "n_dates": 1
+  },
+  "candidate_validation": {
+    "macro_recall_at_K": 0.30158730158730157,
+    "macro_precision_at_K": 0.09895833333333333,
+    "macro_average_precision": 0.07828924124513574,
+    "pooled_recall_at_K": 0.30158730158730157,
+    "pooled_precision_at_K": 0.09895833333333333,
+    "n_active": 1929,
+    "K": 192,
+    "n_churn": 63,
+    "hits": 19,
+    "n_dates": 1
+  },
+  "candidate_train": {
+    "macro_recall_at_K": 0.6185831867067962,
+    "macro_precision_at_K": 0.17443099656001393,
+    "macro_average_precision": 0.3949398604809826,
+    "pooled_recall_at_K": 0.6204545454545455,
+    "pooled_precision_at_K": 0.1743295019157088,
+    "n_active": 15696,
+    "K": 1566,
+    "n_churn": 440,
+    "hits": 273,
+    "n_dates": 8
+  },
+  "extra_hits_vs_baseline_validation": 5,
+  "validation_overlap_with_baseline": {
+    "both": 14,
+    "only_model": 5,
+    "only_baseline": 0,
+    "neither": 44,
+    "top_k_common": 159,
+    "sign_test_p_two_sided": 0.0625
+  },
+  "stability_hits_candidate": 85,
+  "stability_hits_baseline": 97,
+  "stability_n_churn": 236,
+  "checks_failed": 0
+}

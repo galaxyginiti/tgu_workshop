@@ -1,6 +1,6 @@
 """Единый запуск проекта.
 
-    python solution/run_all.py            # этапы 2, 3, 4 подряд
+    python solution/run_all.py            # этапы 2, 3, 4, 5 подряд
     python solution/run_all.py --stage 2  # только один этап
 
 Вход: исходные файлы репозитория (1_introduction, 2_preprocessing, 3_eda, 4_features),
@@ -22,7 +22,7 @@ import pandas as pd  # noqa: E402
 
 from churn.common import SOLUTION_DIR, load_config, sha256, write_csv  # noqa: E402
 
-MODULES = {2: "stage2_prepare", 3: "stage3_eda", 4: "stage4_features"}
+MODULES = {2: "stage2_prepare", 3: "stage3_eda", 4: "stage4_features", 5: "stage5_train"}
 STAGES = {n: m for n, m in MODULES.items() if (SOLUTION_DIR / "src" / "churn" / f"{m}.py").exists()}
 
 
@@ -35,6 +35,8 @@ def write_manifest() -> Path:
 
 
 def main() -> int:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")  # вывод в файл или конвейер на Windows
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--stage", type=int, choices=sorted(STAGES), action="append",
                         help="запустить только указанные этапы (можно несколько раз)")

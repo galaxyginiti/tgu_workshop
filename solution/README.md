@@ -10,10 +10,11 @@
 python -m venv .venv
 .venv\Scripts\activate            # Linux/macOS: source .venv/bin/activate
 pip install -r solution/requirements.txt
-python solution/run_all.py        # этапы 2 → 3 → 4, ~15 с
+python solution/run_all.py        # этапы 2 → 3 → 4 → 5, ~30 с
+python solution/check_saved_model.py   # загрузка модели этапа 5 без обучения
 ```
 
-Запуск выполняется из корня репозитория. Отдельный этап: `python solution/run_all.py --stage 3`, но этапам 3–4 нужны результаты этапа 2.
+Запуск выполняется из корня репозитория. Отдельный этап: `python solution/run_all.py --stage 3`, но этапам 3–4 нужны результаты этапа 2, а этапу 5 — результаты этапа 4.
 
 После запуска:
 
@@ -26,7 +27,9 @@ python solution/run_all.py        # этапы 2 → 3 → 4, ~15 с
 ```
 solution/
 ├── run_all.py                 единый запуск
+├── check_saved_model.py       проверка сохранённой модели в новом процессе
 ├── config/project.json        пути к исходникам, даты T, горизонт, правило базы, лимит 10%
+├── config/experiments.json    план опытов этапа 5 и правило выбора
 ├── requirements.txt           фактические версии зависимостей
 ├── sql/                       запрос извлечения из SQLite и диагностические запросы
 ├── src/churn/                 код
@@ -35,11 +38,13 @@ solution/
 │   ├── snapshots.py           активная база на T и метка (общие для этапов 3–4)
 │   ├── stage3_eda.py          этап 3: eda_sample, 6 рисунков, гипотезы
 │   ├── stage4_features.py     этап 4: признаки, метки, split, аудит, baseline
+│   ├── stage5_train.py        этап 5: опыты, сравнение с baseline, сохранение кандидата
 │   └── preprocessing.py       преобразователь (fit только на train)
 ├── stage1_charter/            Устав_проекта.md
 ├── stage2_preparation/        Отчёт_о_качестве.md + output/
 ├── stage3_eda/                Отчёт_EDA.md + output/ (figures/, tables/)
-└── stage4_features/           План_моделирования.md + output/
+├── stage4_features/           План_моделирования.md + output/
+└── stage5_models/             Отчёт_об_обучении.md, Журнал_экспериментов.md + output/ (model/)
 ```
 
 ## Этапы и результаты
@@ -50,8 +55,9 @@ solution/
 | 2. Подготовка данных | 17.10 | [Отчёт о качестве](stage2_preparation/Отчёт_о_качестве.md) | 5 чистых таблиц, `customer_month` 24 098 строк (= биллинг), карантин 180 записей, журнал из 20 решений, 21 проверка |
 | 3. EDA | 24.10 | [Отчёт EDA](stage3_eda/Отчёт_EDA.md) | `eda_sample` 15 696 строк на 8 датах; долг > 0 → 7,5% оттока против 1,4%; 6 рисунков с расчётными таблицами; 4 гипотезы; 17 проверок |
 | 4. Признаки и метод | 31.10 | [План моделирования](stage4_features/План_моделирования.md) | 34 признака (32 в X → 58 столбцов), `features` / `labels` / `split` / `feature_audit`; baseline по долгу Recall@K = 39,8% (случайный ≈ 10%); 28 проверок |
+| 5. Обучение моделей | 07.11 | [Отчёт об обучении](stage5_models/Отчёт_об_обучении.md), [журнал](stage5_models/Журнал_экспериментов.md) | 6 опытов двух методов; кандидат `exp05_hgb_leaf7`: 19 из 63 на validation против 14 у правила долга, но на фолдах 85 против 97 из 236 — преимущество не подтверждено; Pipeline сохранён и загружается без fit; 24 проверки |
 
-Каждый этап сдаётся отдельным тегом (`stage-1` … `stage-4`) в этом репозитории.
+Каждый этап сдаётся отдельным тегом (`stage-1` … `stage-5`) в этом репозитории.
 
 ## Главные правила, которые соблюдаются во всём коде
 

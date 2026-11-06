@@ -1,0 +1,16 @@
+{
+  "selected_experiment": "exp05_hgb_leaf7",
+  "fit_forbidden_in_process": true,
+  "rows": 1929,
+  "keys_equal": true,
+  "scores_close_1e_12": true,
+  "rank_equal": true,
+  "top_k_equal": true,
+  "metrics_equal": true,
+  "input_data_hashes_equal": true,
+  "validation_hits": 19,
+  "validation_n_churn": 63,
+  "validation_K": 192,
+  "validation_recall_at_K": 0.301587,
+  "passed": true
+}
