@@ -1,0 +1,3 @@
+﻿approach;snapshot_at;n_active;K;n_churn;hits;recall_at_K;precision_at_K;average_precision
+baseline;2026-09-01;1916;191;65;30;0.461538;0.157068;0.1166
+exp05_hgb_leaf7;2026-09-01;1916;191;65;29;0.446154;0.151832;0.143532

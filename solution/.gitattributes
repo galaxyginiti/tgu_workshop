@@ -6,3 +6,4 @@
 *.txt text eol=lf
 *.png binary
 *.joblib binary
+*.pptx binary

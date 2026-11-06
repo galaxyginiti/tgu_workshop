@@ -21,6 +21,7 @@ STAGE2_OUT = SOLUTION_DIR / "stage2_preparation" / "output"
 STAGE3_OUT = SOLUTION_DIR / "stage3_eda" / "output"
 STAGE4_OUT = SOLUTION_DIR / "stage4_features" / "output"
 STAGE5_OUT = SOLUTION_DIR / "stage5_models" / "output"
+STAGE6_OUT = SOLUTION_DIR / "stage6_final" / "output"
 
 MSK_OFFSET = pd.Timedelta(hours=3)
 CSV_OPTIONS = dict(sep=";", encoding="utf-8-sig")

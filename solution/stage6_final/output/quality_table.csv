@@ -1,0 +1,5 @@
+﻿period;approach;experiment;n_active;K;hits;n_churn;recall_at_K;precision_at_K;average_precision
+Validation;Baseline;baseline;1929;192;14;63;0.222222;0.072917;0.058262
+Validation;Модель;exp05_hgb_leaf7;1929;192;19;63;0.301587;0.098958;0.078289
+Test;Baseline;baseline;1916;191;30;65;0.461538;0.157068;0.1166
+Test;Модель;exp05_hgb_leaf7;1916;191;29;65;0.446154;0.151832;0.143532

@@ -1,0 +1,86 @@
+{
+  "selected_experiment": "exp05_hgb_leaf7",
+  "test_date": "2026-09-01",
+  "quality": [
+    {
+      "period": "Validation",
+      "approach": "Baseline",
+      "experiment": "baseline",
+      "n_active": 1929,
+      "K": 192,
+      "hits": 14,
+      "n_churn": 63,
+      "recall_at_K": 0.222222,
+      "precision_at_K": 0.072917,
+      "average_precision": 0.058262
+    },
+    {
+      "period": "Validation",
+      "approach": "Модель",
+      "experiment": "exp05_hgb_leaf7",
+      "n_active": 1929,
+      "K": 192,
+      "hits": 19,
+      "n_churn": 63,
+      "recall_at_K": 0.301587,
+      "precision_at_K": 0.098958,
+      "average_precision": 0.078289
+    },
+    {
+      "period": "Test",
+      "approach": "Baseline",
+      "experiment": "baseline",
+      "n_active": 1916,
+      "K": 191,
+      "hits": 30,
+      "n_churn": 65,
+      "recall_at_K": 0.461538,
+      "precision_at_K": 0.157068,
+      "average_precision": 0.1166
+    },
+    {
+      "period": "Test",
+      "approach": "Модель",
+      "experiment": "exp05_hgb_leaf7",
+      "n_active": 1916,
+      "K": 191,
+      "hits": 29,
+      "n_churn": 65,
+      "recall_at_K": 0.446154,
+      "precision_at_K": 0.151832,
+      "average_precision": 0.143532
+    }
+  ],
+  "test_extra_hits_vs_baseline": -1,
+  "test_overlap_with_baseline": {
+    "both": 27,
+    "only_model": 2,
+    "only_baseline": 3,
+    "neither": 33,
+    "top_k_common": 155,
+    "sign_test_p_two_sided": 1.0
+  },
+  "segment_debt_test": [
+    {
+      "group": "долг > 0",
+      "n": 426,
+      "n_churn": 40,
+      "churn_rate": 0.09389671361502347,
+      "model_selected": 191,
+      "model_hits": 29,
+      "baseline_selected": 191,
+      "baseline_hits": 30
+    },
+    {
+      "group": "долг = 0",
+      "n": 1490,
+      "n_churn": 25,
+      "churn_rate": 0.016778523489932886,
+      "model_selected": 0,
+      "model_hits": 0,
+      "baseline_selected": 0,
+      "baseline_hits": 0
+    }
+  ],
+  "checks_failed": 0
+}

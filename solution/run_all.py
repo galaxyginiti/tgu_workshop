@@ -1,6 +1,6 @@
 """Единый запуск проекта.
 
-    python solution/run_all.py            # этапы 2, 3, 4, 5 подряд
+    python solution/run_all.py            # этапы 2, 3, 4, 5, 6 подряд
     python solution/run_all.py --stage 2  # только один этап
 
 Вход: исходные файлы репозитория (1_introduction, 2_preprocessing, 3_eda, 4_features),
@@ -22,7 +22,7 @@ import pandas as pd  # noqa: E402
 
 from churn.common import SOLUTION_DIR, load_config, sha256, write_csv  # noqa: E402
 
-MODULES = {2: "stage2_prepare", 3: "stage3_eda", 4: "stage4_features", 5: "stage5_train"}
+MODULES = {2: "stage2_prepare", 3: "stage3_eda", 4: "stage4_features", 5: "stage5_train", 6: "stage6_evaluate"}
 STAGES = {n: m for n, m in MODULES.items() if (SOLUTION_DIR / "src" / "churn" / f"{m}.py").exists()}
 
 
