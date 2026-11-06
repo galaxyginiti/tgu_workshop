@@ -1,0 +1,27 @@
+{
+  "x_version": "x_v1",
+  "x_source": "stage4_features/output/preprocessing_report.json (include_in_X = да в паспорте признаков)",
+  "seed": 42,
+  "campaign_fraction": 0.1,
+  "baseline_feature": "debt_last_rub",
+  "selection_rule": [
+    "максимальный Recall@K на validation (01.08.2026)",
+    "при равенстве — максимальный Average Precision на validation",
+    "при полном равенстве — первый опыт в порядке этого списка (более простой идёт раньше)"
+  ],
+  "experiments": [
+    {"id": "exp01_lr_c001", "family": "logistic_regression", "params": {"C": 0.01}, "goal": "сильная регуляризация: долг, задержка и оплата коррелируют"},
+    {"id": "exp02_lr_c01", "family": "logistic_regression", "params": {"C": 0.1}, "goal": "средняя регуляризация"},
+    {"id": "exp03_lr_c1", "family": "logistic_regression", "params": {"C": 1.0}, "goal": "слабая регуляризация"},
+    {"id": "exp04_lr_c01_balanced", "family": "logistic_regression", "params": {"C": 0.1, "class_weight": "balanced"}, "goal": "веса классов как отдельный опыт: отток редкий"},
+    {"id": "exp05_hgb_leaf7", "family": "hist_gradient_boosting", "params": {"max_leaf_nodes": 7, "max_iter": 100, "learning_rate": 0.07}, "goal": "простые деревья: пороги и взаимодействия"},
+    {"id": "exp06_hgb_leaf15", "family": "hist_gradient_boosting", "params": {"max_leaf_nodes": 15, "max_iter": 100, "learning_rate": 0.07}, "goal": "более сложные деревья: проверка на переобучение"}
+  ],
+  "stability_folds": [
+    {"fold": 1, "train_until_inclusive": "2026-03-01", "evaluate_at": "2026-04-01"},
+    {"fold": 2, "train_until_inclusive": "2026-04-01", "evaluate_at": "2026-05-01"},
+    {"fold": 3, "train_until_inclusive": "2026-05-01", "evaluate_at": "2026-06-01"},
+    {"fold": 4, "train_until_inclusive": "2026-06-01", "evaluate_at": "2026-07-01"}
+  ],
+  "notes": "Фолды внутри train — только проверка устойчивости, в выборе не участвуют. Test (01.09.2026) на этапе 5 не загружается и не оценивается. После выбора на train+validation не переобучаем."
+}
