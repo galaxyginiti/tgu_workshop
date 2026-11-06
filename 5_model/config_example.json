@@ -1,0 +1,68 @@
+{
+  "seed": 42,
+  "campaign_fraction": 0.1,
+  "baseline_feature": "closing_debt_last",
+  "numeric_columns": [
+    "tenure_days",
+    "closing_debt_last",
+    "payment_delay_days_last",
+    "traffic_gb_last",
+    "traffic_delta_last_prev",
+    "traffic_mean_3m",
+    "traffic_per_active_day_3m",
+    "debt_positive_months_3m",
+    "paid_charged_ratio_3m",
+    "support_count_last",
+    "support_count_3m",
+    "support_network_count_3m",
+    "billing_months_3m",
+    "traffic_known_months_3m",
+    "debt_known_months_3m",
+    "traffic_last_missing",
+    "digital_sessions_last",
+    "digital_attempts_last",
+    "digital_failure_rate_last",
+    "digital_report_known",
+    "network_failure_rate_last",
+    "network_report_known"
+  ],
+  "categorical_columns": [
+    "region",
+    "tariff_last",
+    "digital_status_last"
+  ],
+  "experiments": [
+    {
+      "id": "lr_c01",
+      "family": "logistic_regression",
+      "params": {
+        "C": 0.1
+      }
+    },
+    {
+      "id": "lr_c1",
+      "family": "logistic_regression",
+      "params": {
+        "C": 1.0
+      }
+    },
+    {
+      "id": "hgb_leaf7",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "max_leaf_nodes": 7,
+        "max_iter": 100,
+        "learning_rate": 0.07
+      }
+    },
+    {
+      "id": "hgb_leaf15",
+      "family": "hist_gradient_boosting",
+      "params": {
+        "max_leaf_nodes": 15,
+        "max_iter": 100,
+        "learning_rate": 0.07
+      }
+    }
+  ]
+}
